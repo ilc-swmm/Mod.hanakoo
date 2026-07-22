@@ -6,6 +6,10 @@ import os
 import asyncio
 from database import Database
 from utils.logging import setup_logging
+class Bot(commands.Bot):
+    async def setup_hook(self):
+        self.tree.clear_commands(guild=None)
+        await self.tree.sync()
 
 class ModerationBot(commands.Bot):
     def __init__(self):
