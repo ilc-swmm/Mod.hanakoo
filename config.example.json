@@ -27,16 +27,16 @@
         "emoji_limit": 10
     },
     "moderation_roles": [
-        "Moderator",
-        "Admin",
-        "Staff",
-        "Helper"
+        "",
+        "",
+        "",
+        ""
     ],
     "immune_roles": [
-        "Admin",
-        "Owner",
+        "",
+        "",
         "Bot",
-        "Staff"
+        ""
     ],
     "logging": {
         "level": "INFO",
