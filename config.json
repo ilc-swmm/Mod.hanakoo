@@ -1,9 +1,9 @@
 {
-    "prefix": "!",
+    "prefix": "h!",
     "default_settings": {
-        "automod_enabled": true,
-        "spam_detection": true,
-        "profanity_filter": true,
+        "automod_enabled": false,
+        "spam_detection": false,
+        "profanity_filter": false,
         "max_warnings": 3,
         "warning_actions": {
             "1": "warn",
@@ -17,16 +17,16 @@
         "welcome_message": "Welcome to {guild}, {user}!"
     },
     "blacklist_words": [
-        "badword1",
-        "badword2",
-        "spam",
-        "offensive"
+        "",
+        "",
+        "",
+        ""
     ],
     "spam_thresholds": {
-        "messages_per_minute": 10,
-        "duplicate_messages": 3,
-        "mention_limit": 5,
-        "emoji_limit": 10
+        "messages_per_minute": 100,
+        "duplicate_messages": 5,
+        "mention_limit": 10,
+        "emoji_limit": 15
     },
     "moderation_roles": [
         "Moderator",
