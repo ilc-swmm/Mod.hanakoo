@@ -21,10 +21,10 @@
         "another_example"
     ],
     "spam_thresholds": {
-        "messages_per_minute": 10,
-        "duplicate_messages": 3,
-        "mention_limit": 5,
-        "emoji_limit": 10
+        "messages_per_minute": 500,
+        "duplicate_messages": 5,
+        "mention_limit": 8,
+        "emoji_limit": 15
     },
     "moderation_roles": [
         "",
